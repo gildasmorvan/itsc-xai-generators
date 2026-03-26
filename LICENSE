@@ -19,3 +19,21 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+----------------------------------------------------------------------
+Appreciation License (Non-binding)
+----------------------------------------------------------------------
+
+In addition to the MIT License above (which is the only legally binding part),
+users of this software are kindly invited to consider the following:
+
+1. If this code helps you publish a paper, please cite the original work.
+2. If this code helps you complete your PhD, you owe the author a beverage
+   of your choice (coffee, beer, or equivalent).
+3. If this code contributes to preventing a real-world machine failure,
+   the beverage should be of excellent quality.
+4. If this code becomes part of a billion-euro industrial system,
+   a thank-you email would be greatly appreciated.
+
+Cheers,
+Gildas Morvan
