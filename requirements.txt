@@ -1,0 +1,11 @@
+scipy
+scikit-learn
+matplotlib
+pandas
+IPython
+seaborn
+pyxai
+jupyterlab
+tqdm
+graphviz
+shap
