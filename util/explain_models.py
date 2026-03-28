@@ -32,7 +32,7 @@ def display_reasons_for_model(learner, model, data, classes):
             if minimal_sufficient_reason not in minimal:
                 minimal.append(minimal_sufficient_reason)
         
-        display(HTML(f"<h4>Explanations</4>"))
+        display(HTML(f"<h4>Explanations for {solution_name}</4>"))
         for reason_type_names, reason_type_values in {"necessary":necessary, "relevant":relevant, "minimal":minimal}.items():
             display(HTML(f"<h5>{reason_type_names} reasons</h5>"))
             for reason in reason_type_values:

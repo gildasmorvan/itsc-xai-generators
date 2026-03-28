@@ -1,37 +1,69 @@
-# itsc-xai-generators
-Explainable AI for inter-turn short-circuit fault detection in low-speed synchronous generators
+# ITSC-XAI-Generators
 
-## Dataset
+Explainable AI for inter-turn short-circuit (ITSC) fault detection in low-speed synchronous generators.
 
-The dataset used in this repo is available on (Zenodo)[https://doi.org/10.5281/zenodo.19230572].
+---
 
-## How to run the notebooks
+## 📊 Dataset
 
-1. Create a Python virtual environment
-```
-python3 -m venv venv
-```
-2. Activate it
+The dataset used in this repository is publicly available on Zenodo:
 
-	* Linux/Mac: `source venv/bin/activate`
-	* Windows: `venv\Scripts\activate`
-	
-3. Install the dependencies
+https://doi.org/10.5281/zenodo.19230572
 
-```
-pip install -r requirements.txt
-```
+It contains frequency-domain features extracted from stray magnetic field measurements collected on six industrial generators.
 
-4. Launch Jupyter-lab
+---
 
-```
-jupyter-lab
-```
+## ⚙️ Setup
 
-## Notebooks
+To run the notebooks, follow these steps:
 
-The repo contains two notebooks.
+### 1. Create a virtual environment
+    python3 -m venv venv
 
-* (ClassicAlgorithms.ipynb)[ClassicAlgorithms.ipynb] evaluates the performances of classical classification algorithms on the dataset.
+### 2. Activate the environment
 
-* (XAI.ipynb)[XAI.ipynb] evaluates the performances of our XAI-based approach.
+- Linux / Mac:
+    source venv/bin/activate
+
+- Windows:
+    venv\Scripts\activate
+
+### 3. Install dependencies
+    pip install -r requirements.txt
+
+### 4. Launch JupyterLab
+    jupyter-lab
+
+---
+
+## 📓 Notebooks
+
+This repository includes the following notebooks:
+
+- ClassicAlgorithms.ipynb  
+  Evaluates classical machine learning algorithms on the dataset using cross-machine splits.
+
+- Raw.ipynb  
+  Evaluates the XAI-based approach using raw frequency-domain features.
+
+- Sign_Of_First_Order_Difference.ipynb  
+  Evaluates the XAI-based approach using the sign of the first-order difference of the features.
+
+---
+
+## 🎯 Purpose
+
+This project investigates the robustness of explainable models for fault detection under domain shift across machines, and highlights the limitations of classical data-driven approaches in this setting.
+
+---
+
+## 📄 License
+
+This project is released under the MIT License (see LICENSE file).
+
+---
+
+## 🙏 Acknowledgements
+
+If you use this code or dataset, please consider citing the associated work.

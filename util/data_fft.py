@@ -175,8 +175,8 @@ def cross_validation(data_fft, data_representation='raw', n_runs=10, verbose=Fal
     mean_accuracy = 0
     for i, (train_machines, test_machine) in enumerate(splits):
         train_data, test_data = get_train_test_data(data_fft, train_machines, test_machine)
-        X_train = train_data.drop(train_data.columns[-3:], axis=1).to_numpy()
-        X_test = test_data.drop(test_data.columns[-3:], axis=1).to_numpy()
+        X_train = train_data.drop(train_data.columns[-2:], axis=1).to_numpy()
+        X_test = test_data.drop(test_data.columns[-2:], axis=1).to_numpy()
 
         if data_representation in ['diff', 'sign']:
             X_train = np.diff(X_train)
