@@ -50,7 +50,7 @@ This repository includes the following notebooks:
 - [Sign_Of_First_Order_Difference.ipynb](Sign_Of_First_Order_Difference.ipynb)
   Evaluates the XAI-based approach using the sign of the first-order difference of the features.
   
-  - [First_Order_Difference.ipynb](First_Order_Difference.ipynb)
+- [First_Order_Difference.ipynb](First_Order_Difference.ipynb)
   Evaluates the XAI-based approach using the first-order difference of the features.
 
 ---
