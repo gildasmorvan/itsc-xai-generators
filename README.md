@@ -55,12 +55,6 @@ This repository includes the following notebooks:
 
 ---
 
-## 🎯 Purpose
-
-This project investigates the robustness of explainable models for fault detection under domain shift across machines, and highlights the limitations of classical data-driven approaches in this setting.
-
----
-
 ## 📄 License
 
 This project is released under the MIT License (see LICENSE file).
