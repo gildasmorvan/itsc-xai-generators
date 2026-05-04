@@ -69,4 +69,18 @@ This project is released under the MIT License (see LICENSE file).
 
 ## 🙏 Acknowledgements
 
+ This work has benefited from the support of EDF and the National Research Agency under France 2030, MAIA Project (ANR-22-EXES-0009).
+ 
 If you use this code or dataset, please consider citing the associated work.
+
+
+```bibtex
+@dataset{edf_dataset,
+  author    = {Morvan, Gildas and Ducreux, Jean-Pierre and Jacq, Thierry and Pusca, Remus and Romary, Raphael},
+  title     = {Frequency-Domain Dataset for Inter-Turn Short-Circuit (ITSC) Fault Detection in EDF Low-Speed Synchronous Generators},
+  month     = mar,
+  year      = 2026,
+  publisher = {Zenodo},
+  version   = {1.0},
+  doi       = {10.5281/zenodo.19230572}
+}
