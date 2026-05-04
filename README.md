@@ -41,14 +41,17 @@ To run the notebooks, follow these steps:
 
 This repository includes the following notebooks:
 
-- ClassicAlgorithms.ipynb  
+- [ClassicAlgorithms.ipynb ](ClassicAlgorithms.ipynb)
   Evaluates classical machine learning algorithms on the dataset using cross-machine splits.
 
-- Raw.ipynb  
+- [Raw.ipynb](Raw.ipynb)
   Evaluates the XAI-based approach using raw frequency-domain features.
 
-- Sign_Of_First_Order_Difference.ipynb  
+- [Sign_Of_First_Order_Difference.ipynb](Sign_Of_First_Order_Difference.ipynb)
   Evaluates the XAI-based approach using the sign of the first-order difference of the features.
+  
+  - [First_Order_Difference.ipynb](First_Order_Difference.ipynb)
+  Evaluates the XAI-based approach using the first-order difference of the features.
 
 ---
 
